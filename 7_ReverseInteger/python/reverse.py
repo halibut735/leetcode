@@ -19,7 +19,6 @@ class Solution:
                 return 0
         return retInt
 
-
 def main():
     a = Solution()
     print a.reverse(-123)
