@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		967529331BA1570900EF10D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 967529321BA1570900EF10D3 /* main.cpp */; };
+		967529471BA163A500EF10D3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 967529461BA163A500EF10D3 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9675292D1BA1570900EF10D3 /* CopyFiles */ = {
+		967529411BA163A500EF10D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9675292F1BA1570900EF10D3 /* Rotate_Array */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Rotate_Array; sourceTree = BUILT_PRODUCTS_DIR; };
-		967529321BA1570900EF10D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		967529391BA1571800EF10D3 /* solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		967529431BA163A500EF10D3 /* Letter Combinations of a Phone Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Letter Combinations of a Phone Number"; sourceTree = BUILT_PRODUCTS_DIR; };
+		967529461BA163A500EF10D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9675292C1BA1570900EF10D3 /* Frameworks */ = {
+		967529401BA163A500EF10D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		967529261BA1570900EF10D3 = {
+		9675293A1BA163A500EF10D3 = {
 			isa = PBXGroup;
 			children = (
-				967529311BA1570900EF10D3 /* Rotate_Array */,
-				967529301BA1570900EF10D3 /* Products */,
+				967529451BA163A500EF10D3 /* Letter Combinations of a Phone Number */,
+				967529441BA163A500EF10D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		967529301BA1570900EF10D3 /* Products */ = {
+		967529441BA163A500EF10D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9675292F1BA1570900EF10D3 /* Rotate_Array */,
+				967529431BA163A500EF10D3 /* Letter Combinations of a Phone Number */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		967529311BA1570900EF10D3 /* Rotate_Array */ = {
+		967529451BA163A500EF10D3 /* Letter Combinations of a Phone Number */ = {
 			isa = PBXGroup;
 			children = (
-				967529321BA1570900EF10D3 /* main.cpp */,
-				967529391BA1571800EF10D3 /* solution.h */,
+				967529461BA163A500EF10D3 /* main.cpp */,
 			);
-			path = Rotate_Array;
+			path = "Letter Combinations of a Phone Number";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9675292E1BA1570900EF10D3 /* Rotate_Array */ = {
+		967529421BA163A500EF10D3 /* Letter Combinations of a Phone Number */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 967529361BA1570900EF10D3 /* Build configuration list for PBXNativeTarget "Rotate_Array" */;
+			buildConfigurationList = 9675294A1BA163A500EF10D3 /* Build configuration list for PBXNativeTarget "Letter Combinations of a Phone Number" */;
 			buildPhases = (
-				9675292B1BA1570900EF10D3 /* Sources */,
-				9675292C1BA1570900EF10D3 /* Frameworks */,
-				9675292D1BA1570900EF10D3 /* CopyFiles */,
+				9675293F1BA163A500EF10D3 /* Sources */,
+				967529401BA163A500EF10D3 /* Frameworks */,
+				967529411BA163A500EF10D3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Rotate_Array;
-			productName = Rotate_Array;
-			productReference = 9675292F1BA1570900EF10D3 /* Rotate_Array */;
+			name = "Letter Combinations of a Phone Number";
+			productName = "Letter Combinations of a Phone Number";
+			productReference = 967529431BA163A500EF10D3 /* Letter Combinations of a Phone Number */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		967529271BA1570900EF10D3 /* Project object */ = {
+		9675293B1BA163A500EF10D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "中央政治局常委";
 				TargetAttributes = {
-					9675292E1BA1570900EF10D3 = {
+					967529421BA163A500EF10D3 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = 9675292A1BA1570900EF10D3 /* Build configuration list for PBXProject "Rotate_Array" */;
+			buildConfigurationList = 9675293E1BA163A500EF10D3 /* Build configuration list for PBXProject "Letter Combinations of a Phone Number" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 967529261BA1570900EF10D3;
-			productRefGroup = 967529301BA1570900EF10D3 /* Products */;
+			mainGroup = 9675293A1BA163A500EF10D3;
+			productRefGroup = 967529441BA163A500EF10D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9675292E1BA1570900EF10D3 /* Rotate_Array */,
+				967529421BA163A500EF10D3 /* Letter Combinations of a Phone Number */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9675292B1BA1570900EF10D3 /* Sources */ = {
+		9675293F1BA163A500EF10D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				967529331BA1570900EF10D3 /* main.cpp in Sources */,
+				967529471BA163A500EF10D3 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		967529341BA1570900EF10D3 /* Debug */ = {
+		967529481BA163A500EF10D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		967529351BA1570900EF10D3 /* Release */ = {
+		967529491BA163A500EF10D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +202,14 @@
 			};
 			name = Release;
 		};
-		967529371BA1570900EF10D3 /* Debug */ = {
+		9675294B1BA163A500EF10D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		967529381BA1570900EF10D3 /* Release */ = {
+		9675294C1BA163A500EF10D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -221,24 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9675292A1BA1570900EF10D3 /* Build configuration list for PBXProject "Rotate_Array" */ = {
+		9675293E1BA163A500EF10D3 /* Build configuration list for PBXProject "Letter Combinations of a Phone Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				967529341BA1570900EF10D3 /* Debug */,
-				967529351BA1570900EF10D3 /* Release */,
+				967529481BA163A500EF10D3 /* Debug */,
+				967529491BA163A500EF10D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		967529361BA1570900EF10D3 /* Build configuration list for PBXNativeTarget "Rotate_Array" */ = {
+		9675294A1BA163A500EF10D3 /* Build configuration list for PBXNativeTarget "Letter Combinations of a Phone Number" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				967529371BA1570900EF10D3 /* Debug */,
-				967529381BA1570900EF10D3 /* Release */,
+				9675294B1BA163A500EF10D3 /* Debug */,
+				9675294C1BA163A500EF10D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 967529271BA1570900EF10D3 /* Project object */;
+	rootObject = 9675293B1BA163A500EF10D3 /* Project object */;
 }
