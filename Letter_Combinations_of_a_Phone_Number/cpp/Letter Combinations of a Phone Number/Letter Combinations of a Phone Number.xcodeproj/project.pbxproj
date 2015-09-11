@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		967529431BA163A500EF10D3 /* Letter Combinations of a Phone Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Letter Combinations of a Phone Number"; sourceTree = BUILT_PRODUCTS_DIR; };
 		967529461BA163A500EF10D3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9675294D1BA163B800EF10D3 /* solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		9675294E1BA1A26000EF10D3 /* solution2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = solution2.h; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				967529461BA163A500EF10D3 /* main.cpp */,
+				9675294D1BA163B800EF10D3 /* solution.h */,
+				9675294E1BA1A26000EF10D3 /* solution2.h */,
 			);
 			path = "Letter Combinations of a Phone Number";
 			sourceTree = "<group>";

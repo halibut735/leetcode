@@ -3,10 +3,9 @@ CFLAGS  += -g -Wall
 CFLAGS  += $(OPTFLAGS)
 SRCS := $(wildcard ./src/*cpp)
 OBJECTS := $(patsubst %.cpp, %.o, $(SRCS))
-HEADS := $(wildcard ./inc/*.h)
-TARGET  := main
+TARGET  := aa
 
-INCS    = -I./inc -I/Users/bingoboy/projects/github/leetcode/Rotate_List/cpp/inc
+INCS    = -I./inc
 LIB =
 
 LIBPATH += ./lib
@@ -20,13 +19,13 @@ vpath %.h inc
 %.o:%.cpp
 	$(CC) $(CFLAGS) $(INCS) -o $@ -c $<
 
-.PHONY: all clean
-
 all:$(SUPPORT) $(TARGET)
 $(TARGET):$(OBJECTS)
 	$(CC) -o $(TARGET) $^
 	rm -f $(OBJECTS)
 	mv $(TARGET) $(BINPATH)
+
+.PHONY: all clean
 
 clean:
 	rm -f   $(OBJECTS)

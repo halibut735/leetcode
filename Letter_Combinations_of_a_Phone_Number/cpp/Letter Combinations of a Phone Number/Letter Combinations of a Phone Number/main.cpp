@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "solution2.h"
+using namespace std;
+
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution test;
+    test.letterCombinations("2345");
     return 0;
 }
