@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96DF8C271BA5033F00E469D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DF8C261BA5033F00E469D5 /* main.cpp */; };
+		96DF8C501BA5778200E469D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DF8C4F1BA5778200E469D5 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		96DF8C211BA5033F00E469D5 /* CopyFiles */ = {
+		96DF8C4A1BA5778200E469D5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,13 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		96DF8C231BA5033F00E469D5 /* Merge-Intervals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Merge-Intervals"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96DF8C261BA5033F00E469D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		96DF8C2D1BA5034D00E469D5 /* solution.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		96DF8C4C1BA5778200E469D5 /* Candy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Candy; sourceTree = BUILT_PRODUCTS_DIR; };
+		96DF8C4F1BA5778200E469D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96DF8C201BA5033F00E469D5 /* Frameworks */ = {
+		96DF8C491BA5778200E469D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,95 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96DF8C1A1BA5033F00E469D5 = {
+		96DF8C431BA5778200E469D5 = {
 			isa = PBXGroup;
 			children = (
-				96DF8C251BA5033F00E469D5 /* Merge-Intervals */,
-				96DF8C241BA5033F00E469D5 /* Products */,
+				96DF8C4E1BA5778200E469D5 /* Candy */,
+				96DF8C4D1BA5778200E469D5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96DF8C241BA5033F00E469D5 /* Products */ = {
+		96DF8C4D1BA5778200E469D5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96DF8C231BA5033F00E469D5 /* Merge-Intervals */,
+				96DF8C4C1BA5778200E469D5 /* Candy */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96DF8C251BA5033F00E469D5 /* Merge-Intervals */ = {
+		96DF8C4E1BA5778200E469D5 /* Candy */ = {
 			isa = PBXGroup;
 			children = (
-				96DF8C261BA5033F00E469D5 /* main.cpp */,
-				96DF8C2D1BA5034D00E469D5 /* solution.h */,
+				96DF8C4F1BA5778200E469D5 /* main.cpp */,
 			);
-			path = "Merge-Intervals";
+			path = Candy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96DF8C221BA5033F00E469D5 /* Merge-Intervals */ = {
+		96DF8C4B1BA5778200E469D5 /* Candy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96DF8C2A1BA5033F00E469D5 /* Build configuration list for PBXNativeTarget "Merge-Intervals" */;
+			buildConfigurationList = 96DF8C531BA5778200E469D5 /* Build configuration list for PBXNativeTarget "Candy" */;
 			buildPhases = (
-				96DF8C1F1BA5033F00E469D5 /* Sources */,
-				96DF8C201BA5033F00E469D5 /* Frameworks */,
-				96DF8C211BA5033F00E469D5 /* CopyFiles */,
+				96DF8C481BA5778200E469D5 /* Sources */,
+				96DF8C491BA5778200E469D5 /* Frameworks */,
+				96DF8C4A1BA5778200E469D5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Merge-Intervals";
-			productName = "Merge-Intervals";
-			productReference = 96DF8C231BA5033F00E469D5 /* Merge-Intervals */;
+			name = Candy;
+			productName = Candy;
+			productReference = 96DF8C4C1BA5778200E469D5 /* Candy */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96DF8C1B1BA5033F00E469D5 /* Project object */ = {
+		96DF8C441BA5778200E469D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "中央政治局常委";
 				TargetAttributes = {
-					96DF8C221BA5033F00E469D5 = {
+					96DF8C4B1BA5778200E469D5 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
-			buildConfigurationList = 96DF8C1E1BA5033F00E469D5 /* Build configuration list for PBXProject "Merge-Intervals" */;
+			buildConfigurationList = 96DF8C471BA5778200E469D5 /* Build configuration list for PBXProject "Candy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 96DF8C1A1BA5033F00E469D5;
-			productRefGroup = 96DF8C241BA5033F00E469D5 /* Products */;
+			mainGroup = 96DF8C431BA5778200E469D5;
+			productRefGroup = 96DF8C4D1BA5778200E469D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96DF8C221BA5033F00E469D5 /* Merge-Intervals */,
+				96DF8C4B1BA5778200E469D5 /* Candy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96DF8C1F1BA5033F00E469D5 /* Sources */ = {
+		96DF8C481BA5778200E469D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DF8C271BA5033F00E469D5 /* main.cpp in Sources */,
+				96DF8C501BA5778200E469D5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		96DF8C281BA5033F00E469D5 /* Debug */ = {
+		96DF8C511BA5778200E469D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -169,7 +167,7 @@
 			};
 			name = Debug;
 		};
-		96DF8C291BA5033F00E469D5 /* Release */ = {
+		96DF8C521BA5778200E469D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -204,14 +202,14 @@
 			};
 			name = Release;
 		};
-		96DF8C2B1BA5033F00E469D5 /* Debug */ = {
+		96DF8C541BA5778200E469D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		96DF8C2C1BA5033F00E469D5 /* Release */ = {
+		96DF8C551BA5778200E469D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -221,24 +219,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96DF8C1E1BA5033F00E469D5 /* Build configuration list for PBXProject "Merge-Intervals" */ = {
+		96DF8C471BA5778200E469D5 /* Build configuration list for PBXProject "Candy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96DF8C281BA5033F00E469D5 /* Debug */,
-				96DF8C291BA5033F00E469D5 /* Release */,
+				96DF8C511BA5778200E469D5 /* Debug */,
+				96DF8C521BA5778200E469D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96DF8C2A1BA5033F00E469D5 /* Build configuration list for PBXNativeTarget "Merge-Intervals" */ = {
+		96DF8C531BA5778200E469D5 /* Build configuration list for PBXNativeTarget "Candy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96DF8C2B1BA5033F00E469D5 /* Debug */,
-				96DF8C2C1BA5033F00E469D5 /* Release */,
+				96DF8C541BA5778200E469D5 /* Debug */,
+				96DF8C551BA5778200E469D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96DF8C1B1BA5033F00E469D5 /* Project object */;
+	rootObject = 96DF8C441BA5778200E469D5 /* Project object */;
 }
