@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <fstream>
+#include "header.h"
+
+using namespace std;
+fstream src("/Users/bingoboy/Downloads/cases.txt");
+int tmp;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution haha;
+    vector<int> cases;
+    while (src >> tmp) {
+        cases.push_back(tmp);
+    }
+    haha.candy(cases);
     return 0;
 }
