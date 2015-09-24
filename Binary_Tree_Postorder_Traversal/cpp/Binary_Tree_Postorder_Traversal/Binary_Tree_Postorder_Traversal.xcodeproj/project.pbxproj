@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96DFD4931BAA648300F3FB74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96DFD4921BAA648300F3FB74 /* main.cpp */; };
+		968D85241BB2DCFC0047E94F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968D85231BB2DCFC0047E94F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		96DFD48D1BAA648300F3FB74 /* CopyFiles */ = {
+		968D851E1BB2DCFC0047E94F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,14 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		968D85011BAC2A700047E94F /* solution2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = solution2.h; sourceTree = "<group>"; };
-		96DFD48F1BAA648300F3FB74 /* Dungeon_Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dungeon_Game; sourceTree = BUILT_PRODUCTS_DIR; };
-		96DFD4921BAA648300F3FB74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		96DFD4991BAA649E00F3FB74 /* solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		968D85201BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Binary_Tree_Postorder_Traversal; sourceTree = BUILT_PRODUCTS_DIR; };
+		968D85231BB2DCFC0047E94F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		968D852A1BB2DD060047E94F /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		968D852B1BB2DF390047E94F /* solution2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		96DFD48C1BAA648300F3FB74 /* Frameworks */ = {
+		968D851D1BB2DCFC0047E94F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,96 +40,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96DFD4861BAA648300F3FB74 = {
+		968D85171BB2DCFC0047E94F = {
 			isa = PBXGroup;
 			children = (
-				96DFD4911BAA648300F3FB74 /* Dungeon_Game */,
-				96DFD4901BAA648300F3FB74 /* Products */,
+				968D85221BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */,
+				968D85211BB2DCFC0047E94F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		96DFD4901BAA648300F3FB74 /* Products */ = {
+		968D85211BB2DCFC0047E94F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96DFD48F1BAA648300F3FB74 /* Dungeon_Game */,
+				968D85201BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96DFD4911BAA648300F3FB74 /* Dungeon_Game */ = {
+		968D85221BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */ = {
 			isa = PBXGroup;
 			children = (
-				96DFD4921BAA648300F3FB74 /* main.cpp */,
-				968D85011BAC2A700047E94F /* solution2.h */,
-				96DFD4991BAA649E00F3FB74 /* solution.h */,
+				968D85231BB2DCFC0047E94F /* main.cpp */,
+				968D852A1BB2DD060047E94F /* Header.h */,
+				968D852B1BB2DF390047E94F /* solution2.h */,
 			);
-			path = Dungeon_Game;
+			path = Binary_Tree_Postorder_Traversal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96DFD48E1BAA648300F3FB74 /* Dungeon_Game */ = {
+		968D851F1BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96DFD4961BAA648300F3FB74 /* Build configuration list for PBXNativeTarget "Dungeon_Game" */;
+			buildConfigurationList = 968D85271BB2DCFC0047E94F /* Build configuration list for PBXNativeTarget "Binary_Tree_Postorder_Traversal" */;
 			buildPhases = (
-				96DFD48B1BAA648300F3FB74 /* Sources */,
-				96DFD48C1BAA648300F3FB74 /* Frameworks */,
-				96DFD48D1BAA648300F3FB74 /* CopyFiles */,
+				968D851C1BB2DCFC0047E94F /* Sources */,
+				968D851D1BB2DCFC0047E94F /* Frameworks */,
+				968D851E1BB2DCFC0047E94F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Dungeon_Game;
-			productName = Dungeon_Game;
-			productReference = 96DFD48F1BAA648300F3FB74 /* Dungeon_Game */;
+			name = Binary_Tree_Postorder_Traversal;
+			productName = Binary_Tree_Postorder_Traversal;
+			productReference = 968D85201BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		96DFD4871BAA648300F3FB74 /* Project object */ = {
+		968D85181BB2DCFC0047E94F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "中央政治局常委";
 				TargetAttributes = {
-					96DFD48E1BAA648300F3FB74 = {
-						CreatedOnToolsVersion = 6.4;
+					968D851F1BB2DCFC0047E94F = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
-			buildConfigurationList = 96DFD48A1BAA648300F3FB74 /* Build configuration list for PBXProject "Dungeon_Game" */;
+			buildConfigurationList = 968D851B1BB2DCFC0047E94F /* Build configuration list for PBXProject "Binary_Tree_Postorder_Traversal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 96DFD4861BAA648300F3FB74;
-			productRefGroup = 96DFD4901BAA648300F3FB74 /* Products */;
+			mainGroup = 968D85171BB2DCFC0047E94F;
+			productRefGroup = 968D85211BB2DCFC0047E94F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96DFD48E1BAA648300F3FB74 /* Dungeon_Game */,
+				968D851F1BB2DCFC0047E94F /* Binary_Tree_Postorder_Traversal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		96DFD48B1BAA648300F3FB74 /* Sources */ = {
+		968D851C1BB2DCFC0047E94F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96DFD4931BAA648300F3FB74 /* main.cpp in Sources */,
+				968D85241BB2DCFC0047E94F /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		96DFD4941BAA648300F3FB74 /* Debug */ = {
+		968D85251BB2DCFC0047E94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -149,6 +149,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -157,7 +158,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -171,7 +171,7 @@
 			};
 			name = Debug;
 		};
-		96DFD4951BAA648300F3FB74 /* Release */ = {
+		968D85261BB2DCFC0047E94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,14 +206,14 @@
 			};
 			name = Release;
 		};
-		96DFD4971BAA648300F3FB74 /* Debug */ = {
+		968D85281BB2DCFC0047E94F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		96DFD4981BAA648300F3FB74 /* Release */ = {
+		968D85291BB2DCFC0047E94F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -223,25 +223,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96DFD48A1BAA648300F3FB74 /* Build configuration list for PBXProject "Dungeon_Game" */ = {
+		968D851B1BB2DCFC0047E94F /* Build configuration list for PBXProject "Binary_Tree_Postorder_Traversal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96DFD4941BAA648300F3FB74 /* Debug */,
-				96DFD4951BAA648300F3FB74 /* Release */,
+				968D85251BB2DCFC0047E94F /* Debug */,
+				968D85261BB2DCFC0047E94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96DFD4961BAA648300F3FB74 /* Build configuration list for PBXNativeTarget "Dungeon_Game" */ = {
+		968D85271BB2DCFC0047E94F /* Build configuration list for PBXNativeTarget "Binary_Tree_Postorder_Traversal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96DFD4971BAA648300F3FB74 /* Debug */,
-				96DFD4981BAA648300F3FB74 /* Release */,
+				968D85281BB2DCFC0047E94F /* Debug */,
+				968D85291BB2DCFC0047E94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 96DFD4871BAA648300F3FB74 /* Project object */;
+	rootObject = 968D85181BB2DCFC0047E94F /* Project object */;
 }
