@@ -8,9 +8,9 @@
 
 #include <iostream>
 #include <string>
-#include "solution.h"
+#include "solution2.h"
 int main(int argc, const char * argv[]) {
     Solution sol;
-    cout << sol.isNumber("0e1") << endl;
+    cout << sol.isNumber("+0e1") << endl;
     return 0;
 }

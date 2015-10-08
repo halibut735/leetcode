@@ -26,6 +26,7 @@
 		968D85491BB2F7B90047E94F /* Max_Points_on_a_Line */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Max_Points_on_a_Line; sourceTree = BUILT_PRODUCTS_DIR; };
 		968D854C1BB2F7B90047E94F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		968D85531BB2F7C80047E94F /* solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		968D85541BB4F8630047E94F /* solution2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				968D854C1BB2F7B90047E94F /* main.cpp */,
 				968D85531BB2F7C80047E94F /* solution.h */,
+				968D85541BB4F8630047E94F /* solution2.h */,
 			);
 			path = Max_Points_on_a_Line;
 			sourceTree = "<group>";
@@ -237,6 +239,7 @@
 				968D85521BB2F7B90047E94F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
