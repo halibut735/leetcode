@@ -22,7 +22,26 @@ using namespace std;
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) {
-        return 0;
+        if (prices.size() < 2 || k == 0) return 0;
+        if (k >= prices.size() / 2){
+            int nolimitedProfit = 0, diff = 0;
+            for (int i = 1; i < prices.size(); ++ i) {
+                diff = prices[i] - prices[i - 1];
+                nolimitedProfit += diff > 0 ? diff : 0;
+            }
+            return nolimitedProfit;
+        }
+        
+        
+        vector<int> sell(k + 1);
+        vector<int> buy(k + 1, INT_MIN);
+        for (int i = 0; i < prices.size(); ++ i) {
+            for (int j = 1; j <= k; ++ j) {
+                buy[j] = max(buy[j], sell[j - 1] - prices[i]);
+                sell[j] = max(buy[j] + prices[i], sell[j]);
+            }
+        }
+        return sell[k];
     }
 };
 #endif /* solution_h */

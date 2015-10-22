@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Best_Time_to_Buy_and_Sell_Stock_IV/solution.h"
-            timestampString = "466136156.234948"
+            filePath = "Palindrome_Partitioning_II/solution.h"
+            timestampString = "467183616.535773"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "maxProfit(int k, vector&lt;int&gt;&amp; prices)"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "minCut(string s)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

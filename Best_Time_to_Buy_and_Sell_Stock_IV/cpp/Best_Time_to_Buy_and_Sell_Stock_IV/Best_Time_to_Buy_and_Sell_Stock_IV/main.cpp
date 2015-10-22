@@ -27,10 +27,7 @@ int main(int argc, const char * argv[]) {
     while (handle >> tmp) {
         prices.push_back(tmp);
     }
-    test.maxProfit(k, prices);
-    
-    int haha = 12312312;
-    cout << to_string(haha) << endl;
+    cout << test.maxProfit(k, prices) << endl;
     
     return 0;
 }
