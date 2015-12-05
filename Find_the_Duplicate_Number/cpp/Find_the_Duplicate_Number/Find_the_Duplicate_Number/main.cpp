@@ -7,9 +7,13 @@
 //
 
 #include <iostream>
-#include "solution.h"
+#include <vector>
+#include <string>
+#include "solution2.h"
 
 int main(int argc, const char * argv[]) {
-    
+    vector<int> nums({1,1});
+    Solution test;
+    cout << test.findDuplicate(nums) << endl;
     return 0;
 }

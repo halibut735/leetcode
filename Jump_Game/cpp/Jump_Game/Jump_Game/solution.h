@@ -17,14 +17,16 @@ using namespace std;
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        for (long i = nums.size() - 1; i >= 0; -- i) {
-            long farReach = min(long(nums.size() - 1), i + nums[i]);
+        int len = nums.size();
+        for (int i = len - 1; i >= 0; -- i) {
+            int farReach = min(len - 1, i + nums[i]);
             nums[i] = farReach;
-            for (long j = i + 1; i <= farReach; ++ j) {
+            for (int j = i + 1; j <= farReach && j < len; ++ j) {
                 nums[i] = max(nums[i], nums[j]);
                 j = nums[j];
             }
         }
+        return nums[0] == len - 1;
     }
 };
 #endif /* solution_h */

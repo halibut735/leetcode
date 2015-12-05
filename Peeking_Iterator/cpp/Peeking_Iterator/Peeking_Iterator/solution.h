@@ -37,22 +37,28 @@ public:
         // Initialize any member here.
         // **DO NOT** save a copy of nums and manipulate it directly.
         // You should only use the Iterator interface methods.
-        
+        next();
     }
     
     // Returns the next element in the iteration without advancing the iterator.
     int peek() {
-        
+        return val;
     }
     
     // hasNext() and next() should behave the same as in the Iterator interface.
     // Override them if needed.
     int next() {
-        
+        int ret = val;
+        has = Iterator::hasNext() ? true : false;
+        if (has) val = Iterator::next();
+        return ret;
     }
     
     bool hasNext() const {
-        
+        return has;
     }
+private:
+    bool has;
+    int val;
 };
 #endif /* solution_h */

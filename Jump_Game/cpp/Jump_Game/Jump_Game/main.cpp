@@ -13,7 +13,8 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<int> nums({3,2,1,0,4});
+    Solution test;
+    test.canJump(nums);
     return 0;
 }

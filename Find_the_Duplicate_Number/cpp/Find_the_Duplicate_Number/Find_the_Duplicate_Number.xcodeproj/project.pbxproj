@@ -26,6 +26,7 @@
 		963254901BC8024400747853 /* Find_the_Duplicate_Number */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Find_the_Duplicate_Number; sourceTree = BUILT_PRODUCTS_DIR; };
 		963254931BC8024400747853 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9632549A1BC8024E00747853 /* solution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution.h; sourceTree = "<group>"; };
+		96F314C91C0F0AA200318C88 /* solution2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = solution2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				963254931BC8024400747853 /* main.cpp */,
 				9632549A1BC8024E00747853 /* solution.h */,
+				96F314C91C0F0AA200318C88 /* solution2.h */,
 			);
 			path = Find_the_Duplicate_Number;
 			sourceTree = "<group>";
@@ -237,6 +239,7 @@
 				963254991BC8024400747853 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
