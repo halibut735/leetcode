@@ -18,33 +18,19 @@ using namespace std;
 class Solution {
 public:
     int minCut(string s) {
-        vector<int> palindromeStart(s.size(), 0), cutCnt(s.size(), 0);
-        for (int i = 1; i < s.size(); ++ i) {
-            int matchIndex = palindromeStart[i - 1] - 1;
-            if (matchIndex >= 0 && s[i] == s[matchIndex]) {
-                palindromeStart[i] = matchIndex;
-            }
-            else if (i - 2 >= 0 && s[i] == s[i - 2]){
-                palindromeStart[i] = i - 2;
-            }
-            else if (i - 1 >= 0 && s[i] == s[i - 1]){
-                palindromeStart[i] = i - 1;
-            }
-            else {
-                palindromeStart[i] = i;
+        int len = (int) s.size();
+        vector<int> dp(len, len + 100);
+        vector<vector<bool>> isParlin(len, vector<bool>(len, false));
+        dp[0] = 0;
+        for (int j = 0; j < len; ++ j) {
+             for (int i = j; i >= 0; -- i) {
+                 if (s[i] == s[j] && (j - i < 3 || isParlin[i + 1][j - 1])) {
+                     isParlin[i][j] = true;
+                     dp[j] = min(dp[j], i ? (dp[i - 1] + 1) : 0);
+                 }
             }
         }
-        
-        for (int i = 1; i < s.size(); ++ i) {
-            if (palindromeStart[i] > 0) {
-                cutCnt[i] = min(cutCnt[i - 1], cutCnt[palindromeStart[i] - 1]) + 1;
-            }
-            else {
-                cutCnt[i] = 0;
-            }
-            
-        }
-        return cutCnt[s.size() - 1];
+        return dp[len - 1];
     }
 };
 #endif /* solution_h */

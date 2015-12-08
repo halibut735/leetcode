@@ -1,20 +1,22 @@
 //
 //  main.cpp
-//  Palindrome_Partitioning_II
+//  Count_of_Smaller_Numbers_After_Self
 //
-//  Created by 中央政治局常委 on 15/10/21.
+//  Created by 中央政治局常委 on 15/12/7.
 //  Copyright © 2015年 中央政治局常委. All rights reserved.
 //
 
 #include "solution.h"
 #include <iostream>
-#include <string>
 #include <vector>
-#include <fstream>
+#include <algorithm>
+#include <queue>
+#include <set>
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+    vector<int> nums({1,1});
     Solution test;
-    cout << test.minCut("abbab") << endl;
+    test.countSmaller(nums);
     return 0;
 }

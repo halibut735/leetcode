@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Palindrome_Partitioning_II/solution.h"
-            timestampString = "471162325.736892"
+            filePath = "Count_of_Smaller_Numbers_After_Self/solution.h"
+            timestampString = "471196993.326425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "minCut(string s)"
+            landmarkName = "countSmaller(vector&lt;int&gt;&amp; nums)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
