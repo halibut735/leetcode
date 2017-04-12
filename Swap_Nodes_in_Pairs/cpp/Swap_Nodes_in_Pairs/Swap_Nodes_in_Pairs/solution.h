@@ -34,24 +34,16 @@ struct ListNode {
 class Solution {
 public:
     ListNode* swapPairs(ListNode* head) {
-        if (head == NULL || head->next == NULL) return head;
-        int tmp;
-        ListNode * preNode = head, *nextNode = head->next;
-        
-        while (1) {
-            tmp = preNode->val;
-            preNode->val = nextNode->val;
-            nextNode->val = tmp;
-            if (nextNode->next)
-                preNode = nextNode->next;
-            else
-                return head;
-            if (preNode->next)
-                nextNode = preNode->next;
-            else return head;
+        ListNode redun(0);
+        redun.next = head;
+        head = &redun;
+        while (head->next && head->next->next) {
+            ListNode * tmp = head->next;
+            head->next = tmp->next;
+            tmp->next = head->next->next;
+            head = head->next->next = tmp;
         }
-        
-        return head;
+        return redun.next;
     }
 };
 #endif /* solution_h */

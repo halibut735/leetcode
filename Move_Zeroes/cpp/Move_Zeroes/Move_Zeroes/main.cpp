@@ -15,19 +15,20 @@ using namespace std;
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        vector<int> tmp;
-        int cnt = 0;
-        for (int each : nums) {
-            if (each) tmp.push_back(each);
-            else cnt ++;
+        unsigned long ll = 0, rr = 0;
+        while (rr < nums.size()) {
+            while (rr < nums.size() && !nums[rr ++]);
+            nums[ll ++] = nums[rr - 1];
         }
-        nums = tmp;
-        nums.insert(nums.end(), cnt, 0);
+        while (ll < nums.size()) nums[ll ++] = 0;
     }
 };
 
 
 int main(int argc, const char * argv[]) {
-    
+    vector<int> nums({0});
+    Solution sol;
+    sol.moveZeroes(nums);
+    cout << nums[0] << endl;
     return 0;
 }

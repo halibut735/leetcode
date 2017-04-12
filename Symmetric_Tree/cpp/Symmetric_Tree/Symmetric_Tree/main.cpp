@@ -25,17 +25,14 @@ class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
         if (!root) return true;
-        return dfs(root->left, root->right);
-    }
-private:
-    bool dfs(TreeNode *left, TreeNode *right) {
-        if (!left || !right) return left == right;
-        return left->val == right->val && dfs(left->left, right->right) && dfs(left->right, right->left);
+        return false;
     }
 };
-
+const char * vec[10];
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    vec = {"hello", "world", "aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", "hhh"};
+    for (auto each : vec) {
+        cout << each << endl;
+    }
     return 0;
 }

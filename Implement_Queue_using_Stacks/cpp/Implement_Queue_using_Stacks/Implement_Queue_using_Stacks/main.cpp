@@ -14,41 +14,45 @@ class Queue {
 public:
     // Push element x to the back of queue.
     void push(int x) {
-        stk1.push(x);
+        stkIn.push(x);
     }
     
     // Removes the element from in front of queue.
     void pop(void) {
-        if (stk2.empty()) {
-            while (!stk1.empty()) {
-                stk2.push(stk1.top());
-                stk1.pop();
-            }
-        }
-        stk2.pop();
+        moveStk();
+        stkOut.pop();
     }
     
     // Get the front element.
     int peek(void) {
-        if (stk2.empty()) {
-            while (!stk1.empty()) {
-                stk2.push(stk1.top());
-                stk1.pop();
-            }
-        }
-        return stk2.top();
+        moveStk();
+        return stkOut.top();
     }
     
     // Return whether the queue is empty.
     bool empty(void) {
-        return stk1.empty() && stk2.empty();
+        moveStk();
+        return stkOut.empty() && stkIn.empty();
+    }
+    void moveStk(void) {
+        if (!stkOut.empty()) return;
+        while (!stkIn.empty()) {
+            stkOut.push(stkIn.top());
+            stkIn.pop();
+        }
     }
 private:
-    stack<int> stk1, stk2;
+    stack<int> stkIn, stkOut;
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Queue que;
+    que.push(1);
+    que.push(2);
+    cout << que.peek() << endl;
+    que.push(3);
+    cout << que.peek() << endl;
+    que.pop();
+    cout << que.peek() << endl;
     return 0;
 }

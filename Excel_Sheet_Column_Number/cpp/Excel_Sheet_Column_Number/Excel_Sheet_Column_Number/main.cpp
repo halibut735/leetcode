@@ -14,10 +14,10 @@ using namespace std;
 class Solution {
 public:
     int titleToNumber(string s) {
-        int ret = 0;
-        for (int i = 0; i < s.size(); ++ i) {
-            ret *= 26;
-            ret += s[i] - 'A' + 1;
+        int ret = 0, mul = 1;
+        for (long i = s.size() - 1; i >= 0; -- i) {
+            ret += mul * (s[i] - 'A' + 1);
+            mul *= 26;
         }
         return ret;
     }

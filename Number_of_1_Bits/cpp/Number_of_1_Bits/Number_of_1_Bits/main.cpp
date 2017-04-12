@@ -13,17 +13,14 @@ class Solution {
 public:
     int hammingWeight(uint32_t n) {
         int ret = 0;
-        uint32_t weight = 1;
-        for (int i = 0; i < 32; ++ i) {
-            ret += (n & weight) ? 1 : 0;
-            weight <<= 1;
-        }
+        for (; n; ++ ret)
+            n &= n - 1;
         return ret;
     }
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution sol;
+    cout << sol.hammingWeight(4294967295) << endl;
     return 0;
 }

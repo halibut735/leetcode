@@ -7,34 +7,23 @@
 //
 
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <queue>
+using namespace std;
 
-
-
+struct TreeNode {
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
 
 
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        queue<TreeNode *> que;
         vector<vector<int>> ret;
-        vector<int> level;
-        if (!root) return ret;
-        que.push(root);
-        que.push(NULL);
-        while (!que.empty()) {
-            TreeNode * tmp = que.front();
-            que.pop();
-            if (tmp) {
-                level.push_back(tmp->val);
-                if (tmp->left) que.push(tmp->left);
-                if (tmp->right) que.push(tmp->right);
-            } else if (1) {
-                if (!que.empty()) que.push(NULL);
-                ret.push_back(level);
-                level.clear();
-            }
-        }
-        reverse(ret.begin(), ret.end());
         return ret;
     }
 };

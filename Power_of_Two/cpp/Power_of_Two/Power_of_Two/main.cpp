@@ -11,18 +11,15 @@ using namespace std;
 
 class Solution {
 public:
+    int imax = 0x40000000;
     bool isPowerOfTwo(int n) {
-        if (n < 1) return false;
-        while (n > 1) {
-            if (n % 2) return false;
-            n /= 2;
-        }
-        return true;
+        //return n > 0 && !(imax % n);
+        return n > 0 && !(n & (n - 1));
     }
 };
 
 int main(int argc, const char * argv[]) {
     Solution test;
-    cout << test.isPowerOfTwo(4) << endl;
+    cout << test.isPowerOfTwo(6) << endl;
     return 0;
 }

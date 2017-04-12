@@ -13,18 +13,18 @@ using namespace std;
 class Solution {
 public:
     int climbStairs(int n) {
-        vector<int> steps(n);
-        steps[0]  = 1;
-        steps[1] = 2;
+        int dp[2] = {1, 2};
+        if (n <= 2) return dp[n - 1];
         for (int i = 2; i < n; ++ i) {
-            steps[i] = steps[i - 1] + steps[i - 2];
+            dp[1] += dp[0];
+            dp[0] = dp[1] - dp[0];
         }
-        return steps[n - 1];
+        return dp[1];
     }
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    Solution sol;
+    sol.climbStairs(4);
     return 0;
 }

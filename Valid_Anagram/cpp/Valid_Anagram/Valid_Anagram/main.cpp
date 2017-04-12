@@ -14,19 +14,21 @@ using namespace std;
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        int chr[257] = {};
         if (s.size() != t.size()) return false;
-        unordered_map<char, int> cnts;
         for (int i = 0; i < s.size(); ++ i) {
-            cnts[s[i]] ++;
-            cnts[t[i]] --;
+            chr[s[i]] ++;
+            chr[t[i]] --;
         }
-        for (auto each : cnts) if (each.second) return false;
+        for (int i = 0; i < 257; ++ i)
+            if (chr[i]) return false;
         return true;
     }
 };
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    string a("a"), b("b");
+    Solution sol;
+    cout << sol.isAnagram(a, b) << endl;
     return 0;
 }

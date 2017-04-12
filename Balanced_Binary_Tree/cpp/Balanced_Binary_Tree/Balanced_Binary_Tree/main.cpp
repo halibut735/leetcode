@@ -24,17 +24,18 @@ struct TreeNode {
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
-        bool ret = true;
-        depth(root, ret);
-        return ret;
+        int depth = cmp_depth(root);
+        return depth != -1;
     }
 private:
-    int depth(TreeNode * root, bool &flag) {
-        if (!root || !flag) return 0;
-        int left = depth(root->left, flag);
-        int right = depth(root->right, flag);
-        if (left - right > 1 || right - left > 1) flag = false;
-        return max(left, right) + 1;
+    int cmp_depth(TreeNode *node) {
+        if (!node) return 0;
+        int ldepth = cmp_depth(node->left);
+        if (ldepth == -1) return -1;
+        int rdepth= cmp_depth(node->right);
+        if (rdepth == -1) return -1;
+        if (abs(ldepth - rdepth) > 1) return -1;
+        return max(rdepth, ldepth) + 1;
     }
 };
 

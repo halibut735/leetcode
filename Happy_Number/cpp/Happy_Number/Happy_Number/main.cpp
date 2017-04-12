@@ -13,24 +13,26 @@ using namespace std;
 class Solution {
 public:
     bool isHappy(int n) {
-        unordered_set<int> table;
-        while (n != 1) {
-            int next = 0;
-            while (n) {
-                int tmp = n % 10;
-                n /= 10;
-                next += tmp * tmp;
-            }
-            n = next;
-            if (table.count(n)) break;
-            table.insert(n);
+        unordered_set<int> nums;
+        while (true) {
+            if (n == 1) return true;
+            if (nums.count(n)) return false;
+            nums.insert(n);
+            n = generate(n);
         }
-        return n == 1;
+    }
+    inline int generate(int a) {
+        int ret = 0;
+        while (a) {
+            ret += (a % 10) * (a % 10);
+            a /= 10;
+        }
+        return ret;
     }
 };
 
 int main(int argc, const char * argv[]) {
     Solution test;
-    cout << test.isHappy(2) << endl;
+    cout << test.isHappy(19) << endl;
     return 0;
 }
